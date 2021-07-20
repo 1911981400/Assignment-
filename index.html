@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+</head>
+
+<body>
+    <h1>
+        This is Time Table
+    </h1>
+    <table border="4" cellspacing="10" cellpadding="10">
+        <tr>
+            <th>Days / Periods</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th> </th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td rowspan="5">B</br>R</br>E</br>A</br>K</td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Tue</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Wed</td>
+            <td>Science</td>
+            <td>English</td>
+            <td rowspan="2">Hindi</td>
+
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Thu</td>
+            <td>Science</td>
+            <td>English</td>
+
+
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Fri</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td colspan="3">Math</td>
+        </tr>
+        <tr>
+            <th colspan="8">This is Class VIII</th>
+        </tr>
+    </table>
+    <h1>My Bio Data</h1>
+    <form action="#" method="post">
+        <fieldset style="width:98%">
+            <legend>Personal Information</legend>
+            <label>FirstName :
+                <input type="text" name="fname" placeholder="First Name">
+            </label>
+            <label>LastName :
+                <input type="text" name="lname" placeholder="Last Name"></br>
+            </label>
+            </br>
+            <label>Male :
+                <input type="radio" name="gender" value="male">
+            </label>
+            <label>Female :
+                <input type="radio" name="gender" value="female">
+            </label>
+            <label>Other :
+                <input type="radio" name="gender" value="Other"></br>
+            </label>
+            </br>
+            <label>
+                Date of Birth : <input type="date">
+            </label></br></br>
+            <label>
+                Email :<input type="email" name="email" placeholder="Enter Yout Email">
+            </label><br />
+            </br>
+            <label>Phone :
+                <input type="tel" name="mobile" placeholder="+91">
+            </label>
+            </br></br>
+            <label>Height :
+                <input type="text" name="height" placeholder="Height in Feet">
+            </label>
+        </fieldset>
+        <fieldset style="width:98%">
+            <legend>Education</legend>
+            <label>School Name:
+                <input type="text" name="sname" placeholder="School Name">
+            </label>
+            </br></br>
+            <label>
+                Class :<input type="text" name="class" placeholder="Enter Class">
+            </label><br />
+            </br>
+            <label>Stream :
+                <select id="streams">
+                    <option value="0">Stream</option>
+                    <option value="sci">Science</option>
+                    <option value="com">Commerce</option>
+                    <option value="art">Arts</option>
+                </select>
+            </label>
+            </br></br>
+            <label>Marksheet :
+                <input type="file" id="file" name="filename">
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
